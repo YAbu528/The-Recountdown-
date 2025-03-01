@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    color: #ff5733;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #00bcd4;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e64a19;
+}
+
+#responseContainer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #222;
+    border-radius: 5px;
+    animation: fadeIn 0.5s;
+}
+
+#history {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history li {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.response-img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
